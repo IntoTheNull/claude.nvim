@@ -1,0 +1,59 @@
+# Compiled Lua sources
+luac.out
+
+# Luarocks build files
+*.src.rock
+*.zip
+*.tar.gz
+
+# Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Neovim specific
+.luacheckcache
+.luarc.json
+tags
+**/tags
+doc/tags
+doc/tags-*
+
+# Environment and secrets
+api_key.txt
+.env
+.env.*
+!.env.example
+
+# Temporary files
+tmp/
+temp/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+/node_modules/
+
+# Test coverage
+/coverage/
+/.nyc_output/
+
+# Ignore vim-plug generated files when testing
+/plugged/
+
+# Custom
+.vscode/
+.idea/
